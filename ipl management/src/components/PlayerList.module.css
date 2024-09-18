@@ -1,0 +1,30 @@
+/* PlayerList.module.css */
+.listContainer {
+    margin-top: 20px;
+  }
+  
+  .playerItem {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .playerName {
+    font-weight: bold;
+  }
+  
+  .editButton {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .editButton:hover {
+    background-color: #218838;
+  }
+  
